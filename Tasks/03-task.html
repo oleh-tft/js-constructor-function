@@ -37,7 +37,7 @@
             this.VIN = VIN;
 
             this.showStats = function (element) {
-                element.insertAdjacentHTML("beforeend", `<img src="images/${this.image}" /><br />`);
+                element.insertAdjacentHTML("beforeend", `<img src="${this.image}" /><br />`);
                 element.insertAdjacentHTML("beforeend", `Производитель: ${this.manufacturer}<br />`);
                 element.insertAdjacentHTML("beforeend", `Модель: ${this.model}<br />`);
                 element.insertAdjacentHTML("beforeend", `Год выпуска: ${this.year}<br />`);
